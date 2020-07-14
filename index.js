@@ -13,4 +13,4 @@ client.on("message", msg => {
   }
 });
 
-client.login(process.env.DISCORD_CLIENT);
+client.login(process.env.DISCORD_TOKEN);
