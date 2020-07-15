@@ -19,7 +19,6 @@ client.on("message", async msg => {
 
     if (language === "javascript" || language === "js") {
       const results = await javascriptLint(code);
-      console.log(results);
 
       const embedResponse = new MessageEmbed()
         .setColor("WHITE")
